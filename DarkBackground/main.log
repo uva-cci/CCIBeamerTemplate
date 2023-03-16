@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.18)  16 MAR 2023 14:05
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.18)  16 MAR 2023 15:33
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1364,20 +1364,20 @@ File: biblatex.cfg
  (./main.aux)
 \openout1 = `main.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 123.
-LaTeX Font Info:    ... okay on input line 123.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 126.
+LaTeX Font Info:    ... okay on input line 126.
 
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
@@ -1445,7 +1445,7 @@ e
 ))
 ABD: EveryShipout initializing macros
 \AtBeginShipoutBox=\box94
-Package hyperref Info: Link coloring OFF on input line 123.
+Package hyperref Info: Link coloring OFF on input line 126.
 
 (c:/texlive/2019/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
@@ -1458,9 +1458,9 @@ Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
 )
 \c@section@level=\count494
 )
-LaTeX Info: Redefining \ref on input line 123.
-LaTeX Info: Redefining \pageref on input line 123.
-LaTeX Info: Redefining \nameref on input line 123.
+LaTeX Info: Redefining \ref on input line 126.
+LaTeX Info: Redefining \pageref on input line 126.
+LaTeX Info: Redefining \nameref on input line 126.
 
 (./main.out) (./main.out)
 \@outlinefile=\write6
@@ -1584,50 +1584,43 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl
+ (./main.bbl)
+Package biblatex Info: Reference section=0 on input line 126.
+Package biblatex Info: Reference segment=0 on input line 126.
 
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                gilbert2005simulation
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
-Package biblatex Info: Reference section=0 on input line 123.
-Package biblatex Info: Reference segment=0 on input line 123.
- (./main.nav)
-LaTeX Font Info:    Trying to load font information for U+msa on input line 123
+(./main.nav)
+LaTeX Font Info:    Trying to load font information for U+msa on input line 126
 .
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 123
+LaTeX Font Info:    Trying to load font information for U+msb on input line 126
 .
 
 (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
-<UvA.png, id=47, 722.7pt x 722.7pt>
-File: UvA.png Graphic file (type png)
-<use UvA.png>
-Package pdftex.def Info: UvA.png  used on input line 127.
-(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+<CCI.png, id=47, 928.06725pt x 948.54375pt>
+File: CCI.png Graphic file (type png)
+<use CCI.png>
+Package pdftex.def Info: CCI.png  used on input line 130.
+(pdftex.def)             Requested size: 56.9055pt x 58.15489pt.
  [1
 
-{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./UvA.png>] [2
+{c:/texlive/2019/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./CCI.png>] [2
 
 ]
 <UvA-bg.png, id=126, 916.6245pt x 639.5895pt>
 File: UvA-bg.png Graphic file (type png)
 <use UvA-bg.png>
-Package pdftex.def Info: UvA-bg.png  used on input line 170.
+Package pdftex.def Info: UvA-bg.png  used on input line 173.
 (pdftex.def)             Requested size: 364.19565pt x 273.15408pt.
  [3
 
  <./UvA-bg.png>]
 File: UvA-bg.png Graphic file (type png)
 <use UvA-bg.png>
-Package pdftex.def Info: UvA-bg.png  used on input line 179.
+Package pdftex.def Info: UvA-bg.png  used on input line 182.
 (pdftex.def)             Requested size: 364.19565pt x 273.15408pt.
 
 [4
@@ -1635,14 +1628,14 @@ Package pdftex.def Info: UvA-bg.png  used on input line 179.
 ]
 File: UvA-bg.png Graphic file (type png)
 <use UvA-bg.png>
-Package pdftex.def Info: UvA-bg.png  used on input line 179.
+Package pdftex.def Info: UvA-bg.png  used on input line 182.
 (pdftex.def)             Requested size: 364.19565pt x 273.15408pt.
  [5
 
 ]
 File: UvA-bg.png Graphic file (type png)
 <use UvA-bg.png>
-Package pdftex.def Info: UvA-bg.png  used on input line 181.
+Package pdftex.def Info: UvA-bg.png  used on input line 184.
 (pdftex.def)             Requested size: 364.19565pt x 273.15408pt.
  [6
 
@@ -1650,35 +1643,35 @@ Package pdftex.def Info: UvA-bg.png  used on input line 181.
 <ProperIncentAnaModel.png, id=274, 666.0885pt x 293.29575pt>
 File: ProperIncentAnaModel.png Graphic file (type png)
 <use ProperIncentAnaModel.png>
-Package pdftex.def Info: ProperIncentAnaModel.png  used on input line 216.
+Package pdftex.def Info: ProperIncentAnaModel.png  used on input line 219.
 (pdftex.def)             Requested size: 171.14764pt x 75.36002pt.
 <ProperIncentExpResult.png, id=275, 319.1925pt x 193.9245pt>
 File: ProperIncentExpResult.png Graphic file (type png)
 <use ProperIncentExpResult.png>
-Package pdftex.def Info: ProperIncentExpResult.png  used on input line 216.
+Package pdftex.def Info: ProperIncentExpResult.png  used on input line 219.
 (pdftex.def)             Requested size: 154.03183pt x 93.58276pt.
 File: UvA-bg.png Graphic file (type png)
 <use UvA-bg.png>
-Package pdftex.def Info: UvA-bg.png  used on input line 216.
+Package pdftex.def Info: UvA-bg.png  used on input line 219.
 (pdftex.def)             Requested size: 364.19565pt x 273.15408pt.
  [7
 
  <./ProperIncentAnaModel.png> <./ProperIncentExpResult.png>]
 File: UvA-bg.png Graphic file (type png)
 <use UvA-bg.png>
-Package pdftex.def Info: UvA-bg.png  used on input line 220.
+Package pdftex.def Info: UvA-bg.png  used on input line 223.
 (pdftex.def)             Requested size: 364.19565pt x 273.15408pt.
 
 [8
 
 ]
-File: UvA.png Graphic file (type png)
-<use UvA.png>
-Package pdftex.def Info: UvA.png  used on input line 224.
-(pdftex.def)             Requested size: 56.9055pt x 56.90189pt.
+File: CCI.png Graphic file (type png)
+<use CCI.png>
+Package pdftex.def Info: CCI.png  used on input line 227.
+(pdftex.def)             Requested size: 56.9055pt x 58.15489pt.
 File: UvA-bg.png Graphic file (type png)
 <use UvA-bg.png>
-Package pdftex.def Info: UvA-bg.png  used on input line 224.
+Package pdftex.def Info: UvA-bg.png  used on input line 227.
 (pdftex.def)             Requested size: 364.19565pt x 273.15408pt.
  [9
 
@@ -1692,11 +1685,11 @@ Package pdftex.def Info: UvA-bg.png  used on input line 224.
 \tf@snm=\write9
 \openout9 = `main.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 226.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 226.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
  (./main.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 226.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 226.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 Package rerunfilecheck Info: File `main.out' has not changed.
 (rerunfilecheck)             Checksum: 6DA0932EAD40DF60293B7B58BAD20CCB;303.
 Package logreq Info: Writing requests to 'main.run.xml'.
@@ -1704,10 +1697,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43323 strings out of 492163
- 884015 string characters out of 6129075
+ 43322 strings out of 492163
+ 884005 string characters out of 6129075
  1315236 words of memory out of 5000000
- 46968 multiletter control sequences out of 15000+600000
+ 46967 multiletter control sequences out of 15000+600000
  543395 words of font info for 67 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,84p,883b,1440s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1719,7 +1712,7 @@ pe1/public/amsfonts/cm/cmssbx10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/pub
 lic/amsfonts/cm/cmssi10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsf
 onts/cm/cmsy10.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/c
 msy8.pfb><c:/texlive/2019/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy9.pfb>
-Output written on main.pdf (9 pages, 268734 bytes).
+Output written on main.pdf (9 pages, 315542 bytes).
 PDF statistics:
  428 PDF objects out of 1000 (max. 8388607)
  379 compressed objects within 4 object streams
