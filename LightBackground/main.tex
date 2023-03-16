@@ -1,0 +1,214 @@
+\documentclass[compress]{beamer}
+\setbeamercovered{transparent}
+\usepackage[utf8]{inputenc}
+
+
+\usepackage{multirow,rotating}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage{tikz-cd}
+\usepackage{array}
+\usepackage{siunitx}
+\usepackage{mathtools,nccmath}%
+\usepackage{etoolbox, xparse}
+\usepackage{adjustbox}
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+\usepackage{graphics}
+\usepackage{media9}
+\usepackage{graphicx}
+
+% set colors
+\definecolor{myNewColorA}{RGB}{158, 27,50}   % wine red
+\definecolor{myNewColorB}{RGB}{225, 225,225} % white
+\definecolor{myNewColorC}{RGB}{242, 242,242} % {130,138,143}
+\setbeamercolor*{palette primary}{bg=myNewColorA}
+\setbeamercolor*{palette secondary}{bg=myNewColorA, fg = white}
+\setbeamercolor*{palette tertiary}{bg=myNewColorA, fg = white}
+\setbeamercolor*{titlelike}{fg=myNewColorA}
+\setbeamercolor*{title}{bg=myNewColorA, fg = white}
+\setbeamercolor*{item}{fg=myNewColorA}
+\setbeamercolor*{caption name}{fg=myNewColorA}
+\setbeamercolor*{block title}{fg=white, bg = myNewColorA}
+\setbeamercolor*{block body}{bg = myNewColorC}
+\usefonttheme{professionalfonts}
+\setbeamercolor*{subsection in head/foot}{bg=myNewColorB,fg=black}
+\setbeamercolor{page number in head/foot}{fg=myNewColorB}
+
+\setbeamertemplate{headline}{%
+  \begin{beamercolorbox}[colsep=1.5pt]{upper separation line head}
+  \end{beamercolorbox}
+  \begin{beamercolorbox}{section in head/foot}
+    \vskip-0.2pt\insertnavigation{\paperwidth}\vskip2pt
+  \end{beamercolorbox}%
+  \begin{beamercolorbox}[colsep=1.5pt]{lower separation line head}
+  \end{beamercolorbox}
+}
+\makeatother
+
+\setbeamertemplate{bibliography item}[text]
+
+\setbeamertemplate{frametitle}{%
+    \nointerlineskip%
+    \begin{beamercolorbox}[wd=\paperwidth,ht=25pt,dp = 1pt]{frametitle}
+        \hspace*{10pt}\insertframetitle\vskip5pt
+    \end{beamercolorbox}%
+}
+
+% Author, title, note
+\setbeamercolor{bibliography entry author}{fg=myNewColorA}
+\setbeamercolor{bibliography entry title}{fg=myNewColorA}
+\setbeamercolor{bibliography entry note}{fg=myNewColorA}
+\usepackage{hyperref}
+
+\titlegraphic{%
+\includegraphics[width=2cm]{UvA.png}
+}
+% set font size
+\setbeamerfont{title}{size=\Large}
+\setbeamerfont{subtitle}{size=\large}
+\setbeamerfont{author}{size=\large}
+\setbeamerfont{date}{size=\small}
+\setbeamerfont{institute}{size=\large}
+\setbeamerfont{block title}{size=\normalsize}
+\setbeamerfont{block body}{size=\footnotesize}
+%\setbeamerfont{itemize/enumerate body}{family=\sffamily, size={\fontsize{18}{18}}}
+\setbeamerfont{itemize/enumerate subbody}{size={\scriptsize}}
+\title[Title shown in the bar]{The title of this presentation} %title
+\subtitle{} % subtitle
+\author[Your email]{Your name}
+\institute[Informatics Institute]{University of Amsterdam}
+\date[\textcolor{white}{\today}]\today
+
+%------------------------------------------------------------
+%beginning of each section and highlights the current section:
+%\AtBeginSection[]
+%{
+%  \begin{frame}
+%    \frametitle{Contents}
+%    \tableofcontents[currentsection]
+%  \end{frame}
+%}
+\AtBeginSection[]{
+  \begin{frame}
+  \vfill
+  \centering
+  \begin{beamercolorbox}[sep=8pt,center,shadow=true,rounded=true]{title}
+    \usebeamerfont{title}\insertsectionhead\par%
+  \end{beamercolorbox}
+  \vfill
+  \end{frame}
+}
+% Citations can be put into the .bibexample.bib file
+\usepackage[style=ieee,citetracker=true, backend=biber]{biblatex}
+\addbibresource{bibexample.bib}
+
+
+% ------Contents below------
+\begin{document}
+
+% The next statement creates the title page.
+
+\frame[plain]{\titlepage} % without bottom bar
+%\begingroup 			  % with bottom bar
+%    \setbeamertemplate{headline}{}
+%    \begin{frame}
+%        \titlepage
+%    \end{frame}
+%\endgroup
+
+%% If the content is not that much, can delete the table of content page
+% \begin{frame}
+% \frametitle{Outline}
+% \tableofcontents
+% \end{frame}
+
+%------------------------------------------------------------
+%\section*{Section1} % do not show section page
+\section{Section1} % show section page
+
+\setbeamertemplate{background}
+{
+    \includegraphics[width=\paperwidth,height=\paperheight]{UvA-bg.png}
+}
+
+\subsection{Section1.1}
+\begin{frame}{Background} 
+    \begin{itemize} %[<+->] % More beamer overlay Beamer Overlay Specifications can be found in "https://www.overleaf.com/learn/latex/Beamer_Presentations%3A_A_Tutorial_for_Beginners_(Part_4)%E2%80%94Overlay_Specifications"
+        \item Point1
+            \begin{center}
+                \begin{minipage}{10.3cm}
+                \begin{block}{Block Title}
+                    Content of the block.
+                \end{block}
+                \end{minipage}
+            \end{center}
+        \item[] % add a space line
+        \item Point2
+            \begin{itemize}
+                \item item1
+                \item item2
+                \item item3
+            \end{itemize}
+        \item Point3
+    \end{itemize}
+\end{frame}
+
+\subsection{Section1.2}
+\begin{frame}{Preliminaries}
+    \begin{itemize}
+        \item<1-> Preliminary a
+        \item<1-> Preliminary a'
+        \item<2-> Preliminary b
+    \end{itemize}
+\end{frame}
+
+\section{Section2}
+\subsection{Model}
+\begin{frame}{Name of the model\cite{zhou2022costly}}
+%\begin{frame}{\href{you can add your github link}{Sustainable Incentive Design~\cite{or add citations}}}
+    \begin{columns}[c]
+    % create the column: images-left, text-right
+    
+    % images
+        \begin{column}{.5\textwidth}
+            \centering
+            \includegraphics[width=\textwidth]{ProperIncentAnaModel.png}\\[0.5cm]
+            \includegraphics[width=0.9\textwidth]{ProperIncentExpResult.png}\\[0.5cm]
+        \end{column}
+    
+    % texts
+        \begin{column}{.5\textwidth}
+            \raggedright
+            \begin{minipage}{5.8cm}
+                \begin{block}{Concept1}
+                    babababbababababa
+                \end{block}
+                \begin{block}{Concept2}
+                    \textbf{LALALALALALA}:\\
+                    \begin{itemize}
+                        \item LA1
+                        \item LA2
+                        \begin{itemize}
+                        	\item LA11
+                        	\item LA12
+                        \end{itemize}
+                    \end{itemize}
+                \end{block}
+            \end{minipage}
+        \end{column}
+    \end{columns}
+\end{frame}
+
+\begin{frame}
+	\printbibliography
+\end{frame}
+
+\begin{frame}
+    \titlepage
+\end{frame}
+
+\end{document}
+
+
+
