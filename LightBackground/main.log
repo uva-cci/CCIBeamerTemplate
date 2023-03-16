@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.18)  16 MAR 2023 15:34
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/W32TeX) (preloaded format=pdflatex 2019.12.18)  16 MAR 2023 16:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1584,18 +1584,11 @@ Package biblatex Info: Automatic encoding selection.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'main.bbl' found.
- (./main.bbl
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
-(biblatex)                gilbert2005simulation
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-)
+ (./main.bbl)
 Package biblatex Info: Reference section=0 on input line 111.
 Package biblatex Info: Reference segment=0 on input line 111.
- (./main.nav)
+
+(./main.nav)
 LaTeX Font Info:    Trying to load font information for U+msa on input line 111
 .
  (c:/texlive/2019/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1704,10 +1697,10 @@ Package logreq Info: Writing requests to 'main.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 43344 strings out of 492163
- 884887 string characters out of 6129075
+ 43343 strings out of 492163
+ 884877 string characters out of 6129075
  1317860 words of memory out of 5000000
- 46996 multiletter control sequences out of 15000+600000
+ 46995 multiletter control sequences out of 15000+600000
  540570 words of font info for 55 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,19n,84p,883b,1448s stack positions out of 5000i,500n,10000p,200000b,80000s

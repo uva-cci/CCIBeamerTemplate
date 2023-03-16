@@ -60,8 +60,8 @@
       \strng{authorbibnamehash}{72dd9a0a119dfeb531c5c14deec21c12}
       \strng{authornamehash}{7287f508118aafb5984ecb5adaab80eb}
       \strng{authorfullhash}{72dd9a0a119dfeb531c5c14deec21c12}
-      \field{sortinit}{2}
-      \field{sortinithash}{ed39bb39cf854d5250e95b1c1f94f4ed}
+      \field{sortinit}{1}
+      \field{sortinithash}{50c6687d7fc80f50136d75228e3c59ba}
       \field{labelnamesource}{author}
       \field{labeltitlesource}{title}
       \field{journaltitle}{Proceedings of the Royal Society A}
@@ -73,7 +73,6 @@
       \range{pages}{1}
     \endentry
   \enddatalist
-  \missing{gilbert2005simulation}
 \endrefsection
 \endinput
 
